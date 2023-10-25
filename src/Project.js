@@ -11,7 +11,7 @@ const Project = (props) => {
      <h1 className=' font-bold text-5xl'>Our Projects</h1>
      <p className='text-gray-400 font-bold '>There ara some small project. With the help of these projects, I have learnt my frontend developement fundamentals</p>
     </div>
-    <div className='flex gap-4 mt-20' >
+    <div className='flex flex-col md:flex-row gap-4 mt-20' >
         <Link to={'/project_detail/to_do'}><img  className='w-[500px] h-[400px] pl-2' src={props.firstProject}></img></Link>
         <img className='w-[500px] h-[400px]' src={props.secondProject}></img>
         <img className='w-[500px] h-[400px] pr-2' src={props.thirdProject}></img>

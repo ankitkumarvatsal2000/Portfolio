@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 
 const All_header = () => {
   return (
-    <div>            <div class="flex justify-center bg-blue-900 text-white ">
+    <div>
+        <div class="flex justify-center bg-blue-900 text-white ">
     <nav class="self-center w-full max-w-7xl  ">
-        <div class="flex md:flex-row flex-col  justify-between items-center md:items-start">
+        <div class="flex flex-col md:flex-row   justify-between items-center md:items-start">
             <h1 class=" py-4 text-2xl font-sans font-bold px-10">My Portfolio</h1>
-            <ul class="flex justify-center my-4  items-center text-sm md:text-[18px] font-bold  md:px-10">
+            <ul class="flex flex-col md:flex-row  justify-center my-4  items-center text-sm md:text-[18px] font-bold  md:px-10">
                 <li
                     class="hover:underline cursor-pointer  underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
                     <Link to={'/'}><div>Home</div></Link>

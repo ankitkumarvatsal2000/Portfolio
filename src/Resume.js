@@ -5,9 +5,9 @@ import All_header from './All_header';
 const Resume = () => {
     return (
         <>
-      <div className='fixed top-0 left-0 right-0'> <All_header /></div> 
-            <div className='m-auto w-[1000px] rounded-lg shadow-md pb-12 '>
-                <div className='mt-36 lg:flex flex-col gap-3 mt-24 ' >
+      <div className=' fixed top-0 left-0 right-0'> <All_header /></div> 
+            <div className=' m-auto w-[400px] md:w-[1000px] rounded-lg shadow-md pb-12 '>
+                <div className='mt-96 md:mt-24  lg:flex flex-col gap-3' >
                     <h1 className='text-blue-700 text-4xl font-bold ml-1'>Education</h1>
                     <h2 className='text-blue-700 font-bold ml-7 '>2020-2022</h2>
                     <h3 className='font-bold text-2xl ml-7'>Master of Computer Appplication</h3>

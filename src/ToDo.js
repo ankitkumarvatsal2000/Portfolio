@@ -6,10 +6,10 @@ const ToDo = () => {
     
   return (
     <>
-    <div className='fixed top-0 right-0 left-0'> <All_header /></div>
-    <div className='w-[1000px] m-auto flex flex-col gap-7 shadow-lg rounded-lg pb-24 pl-9 mt-5'>
+    <div className=' hidden md:block fixed top-0 right-0 left-0'> <All_header /></div>
+    <div className=' w-[400px] md:w-[1000px] m-auto flex flex-shrink-0 md:flex-shrink-1 flex-col gap-7 shadow-lg rounded-lg pb-24 pl-9 mt-5 '>
   
-        <h1 className='text-center text-4xl font-bold pt-14 '>My ToDo List </h1>
+        <h1 className=' text-center text-4xl font-bold pt-14 '>My ToDo List </h1>
         <h2 className='text-2xl font-bold '>Project Title:--<span className=''>ToDo List Application</span></h2>
         <h3  className='text-lg font-bold '>Technology Used:--<span>React.js, HTML5, CSS3, javaScript</span></h3>
         <span className='font-bold text-2xl'>Description:--</span><p className='text-gray-400 font-bold'>Developed a web-based To-Do List application using React.js, allowing users to create, manage, and prioritize tasks for improved productivity.

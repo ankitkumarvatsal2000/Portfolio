@@ -14,7 +14,7 @@ const Navbar = (props) => {
         <>
         <div>
             <div class="flex justify-center bg-blue-900 text-white ">
-    <nav class="self-center w-full max-w-7xl  ">
+    <nav class="self-center  w-full max-w-7xl  ">
         <div class="flex md:flex-row flex-col  justify-between items-center md:items-start">
             <h1 class=" py-4 text-2xl font-sans font-bold px-10 hover:text-red-300 animate-bounce">My Portfolio</h1>
             <ul class="flex justify-center my-4  items-center text-sm md:text-[18px] font-bold  md:px-10">
